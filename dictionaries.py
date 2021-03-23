@@ -25,13 +25,29 @@ dev_ops_student = {
 # print(dev_ops_student.values())
 
 # Add "operators" in completed_lesson_names
-dev_ops_student["completed_lesson_names"].append("operators")
-print(dev_ops_student["completed_lesson_names"])
+# dev_ops_student["completed_lesson_names"].append("operators")
+# print(dev_ops_student["completed_lesson_names"])
+#
+# # Change completed_lesson from 3 to 4
+# dev_ops_student["completed_lesson"] = 4
+# print(dev_ops_student["completed_lesson"])
+#
+# # Remove the "data type" from completed_lesson_names
+# dev_ops_student["completed_lesson_names"].remove("data types")
+# print(dev_ops_student["completed_lesson_names"])
 
-# Change completed_lesson from 3 to 4
-dev_ops_student["completed_lesson"] = 4
-print(dev_ops_student["completed_lesson"])
+# Sets and the difference
+# Syntax {}
 
-# Remove the "data type" from completed_lesson_names
-dev_ops_student["completed_lesson_names"].remove("data types")
-print(dev_ops_student["completed_lesson_names"])
+# Let's create a set
+car_parts = {"wheels", "windows", "doors"}
+print(car_parts)
+print(type(car_parts))
+car_parts.add("seats")
+print(car_parts)
+
+# Use discard() to remove values
+car_parts.discard("doors")
+print(car_parts)
+
+# Frozen sets - homework

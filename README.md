@@ -41,3 +41,10 @@
 - To retrieve a specific list value, add its index in square brackets after the key
 - `print(example_dictionary["skills"][0])`
 - Dictionary values can be changed in the same way as list values
+
+### Sets
+- Syntax `{}`
+- Sets are unordered
+- They return the values in a random order each time
+- Remove values using `ex_set.discard("value")`
+- Rarely used
